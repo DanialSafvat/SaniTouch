@@ -16,7 +16,7 @@
   "name": "Sani Touch Nail Studio",
   "image": "https://sanitouchstudio.com/sanitouch_hero_result.jpg",
   "url": "https://sanitouchstudio.com",
-  "telephone": "TODO-business-GV-number",
+  "telephone": "+1-747-305-1090",
   "founder": { "@type": "Person", "name": "Sanaz Eghbali" },
   "address": { "@type": "PostalAddress", "streetAddress": "19944 1/2 Ventura Blvd", "addressLocality": "Woodland Hills", "addressRegion": "CA", "postalCode": "91364" },
   "sameAs": ["https://www.instagram.com/sani_touch_", "https://www.google.com/maps/place/?q=place_id:ChIJ5dCDTOKZwoARRa7DEd0S_KE", "https://squareup.com/appointments/book/L6FYETYGE0THE"]
@@ -93,6 +93,10 @@
   .quote p{font-size:16.5px; color:var(--espresso); margin-bottom:12px; line-height:1.55}
   .quote span{font-size:13.5px; color:var(--muted); letter-spacing:.06em}
   @media (max-width:820px){ .quotes{grid-template-columns:1fr} }
+  .videowrap{display:grid; grid-template-columns:auto 1fr; gap:34px; align-items:center}
+  .videowrap video{width:340px; max-width:70vw; border-radius:18px; display:block; box-shadow:0 18px 44px rgba(59,42,38,.16)}
+  .vcap{font-size:19px; color:var(--espresso); font-weight:300; max-width:20em}
+  @media (max-width:820px){ .videowrap{grid-template-columns:1fr; gap:20px} }
   .revcard{background:#fff; border-left:3px solid var(--rose); border-radius:12px; padding:30px 34px; max-width:640px}
 
   .menu{max-width:680px}
@@ -189,6 +193,17 @@
       <div class="card"><div style="aspect-ratio:1/1"><img src="sanitouch_work_velvet.jpg" alt="Cat eye almond set" style="width:100%;height:100%;object-fit:cover"></div><div class="cap">Cat eye, almond</div></div>
       <div class="card"><div style="aspect-ratio:1/1"><img src="sanitouch_work_milky.jpg" alt="Milky white short square set" style="width:100%;height:100%;object-fit:cover"></div><div class="cap">Milky white, kept short</div></div>
       <div class="card"><div style="aspect-ratio:1/1"><img src="sanitouch_work_french.jpg" alt="French tip square set" style="width:100%;height:100%;object-fit:cover"></div><div class="cap">French tips, square</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="match">
+  <div class="wrap">
+    <div class="eyebrow">The match</div>
+    <h2 class="seat">Her cat, on her nails.</h2>
+    <div class="videowrap">
+      <video src="sanitouch_catnail.mp4" poster="sanitouch_catnail_poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <p class="vcap">She brought a photo of her cat. It came back painted on the ring finger, freehand, at that size.</p>
     </div>
   </div>
 </section>
